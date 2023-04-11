@@ -1,0 +1,76 @@
+{
+  "id": "51e858a6-8425-40dd-b53f-cddc1dace46a",
+  "version": "2.0",
+  "name": "SCAR1",
+  "url": "https://scar.sandbox.iceberry.se/v.0.4.0/#/",
+  "tests": [{
+    "id": "8d8e396e-04f0-45d2-89b2-09a12921f7a4",
+    "name": "SCAR1",
+    "commands": [{
+      "id": "04cf4ef9-b3bd-4f1c-9a77-3be00ff0da3d",
+      "comment": "",
+      "command": "open",
+      "target": "https://scar.sandbox.iceberry.se/v.0.4.0/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16b4dc37-42e6-4837-999b-65665e4acf6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text:nth-child(1)",
+      "targets": [
+        ["css=.text:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/main/header/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'SCAR ENERGY DRINK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2700e9f-2431-4f31-a3ad-eb5cb74c1030",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.text:nth-child(1)",
+      "targets": [
+        ["css=.text:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/main/header/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'SCAR ENERGY DRINK')]", "xpath:innerText"]
+      ],
+      "value": "SCAR ENERGY DRINK"
+    }, {
+      "id": "b59c7edd-3467-450e-84cf-2c0f69187253",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid > p",
+      "targets": [
+        ["css=.grid > p", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div/p", "xpath:idRelative"],
+        ["xpath=//footer/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Version: 0.3.0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ac26ef-1a1b-4370-9c85-ba5a62dcd225",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.grid > p",
+      "targets": [
+        ["css=.grid > p", "css:finder"],
+        ["xpath=//div[@id='app']/footer/div/p", "xpath:idRelative"],
+        ["xpath=//footer/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Version: 0.3.0')]", "xpath:innerText"]
+      ],
+      "value": "Version: 0.4.0"
+    }]
+  }],
+  "suites": [{
+    "id": "244de146-d9ac-4719-beeb-cf059a8febb9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8d8e396e-04f0-45d2-89b2-09a12921f7a4"]
+  }],
+  "urls": ["https://scar.sandbox.iceberry.se/v.0.4.0/#/"],
+  "plugins": []
+}

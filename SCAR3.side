@@ -1,0 +1,118 @@
+{
+  "id": "b7551b9c-8544-4b42-81a5-1cb3ba905842",
+  "version": "2.0",
+  "name": "SCAR3",
+  "url": "https://scar.sandbox.iceberry.se/v.0.4.0/#/",
+  "tests": [{
+    "id": "d238a34d-c794-47ee-8856-08b8fd9d3cdc",
+    "name": "SCAR3",
+    "commands": [{
+      "id": "97df4578-3632-4a1c-a0d2-80817c0e34d0",
+      "comment": "",
+      "command": "open",
+      "target": "https://scar.sandbox.iceberry.se/v.0.4.0/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e652435f-5ee8-4b11-85b4-823fe9579481",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header",
+      "targets": [
+        ["css=.header", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/main/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f26a553-0879-4310-994b-fe91c9f6a4db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--lg:nth-child(2)",
+      "targets": [
+        ["css=.btn--lg:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "218b8fb7-412f-4d99-b767-4f02ae4d936d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--lg:nth-child(2)",
+      "targets": [
+        ["css=.btn--lg:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b476e0db-4396-4bd2-b76c-2337193a3fd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--lg:nth-child(2)",
+      "targets": [
+        ["css=.btn--lg:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dd62640-ad98-4538-a52a-dfad6dbcc6a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert--error",
+      "targets": [
+        ["css=.alert--error", "css:finder"],
+        ["xpath=//div[@id='app']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17f7939-24dc-46cb-a2a8-c0427280efd8",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.btn--md:nth-child(1) rect",
+      "targets": [
+        ["css=.btn--md:nth-child(1) rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6346799a-8406-4478-93d8-499d911b2e0a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.badge",
+      "targets": [
+        ["css=.badge", "css:finder"],
+        ["xpath=//div[@id='app']/header/div/div/a/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd01a636-54b2-4962-8761-982571dbd40a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn--lg:nth-child(2)",
+      "targets": [
+        ["css=.btn--lg:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/div[2]/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6287e951-2d56-4513-a258-40d38723784a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d238a34d-c794-47ee-8856-08b8fd9d3cdc"]
+  }],
+  "urls": ["https://scar.sandbox.iceberry.se/v.0.4.0/#/"],
+  "plugins": []
+}
